@@ -1,0 +1,271 @@
+
+Uppgift färger och bilder del 1
+Inget inlämningsdatum
+Färger och bilder del 2
+Publicerades 8 mars
+Uppgift färger och bilder del 2
+Inget inlämningsdatum
+HTML Bilder
+Publicerades 18 mars
+HTML Meny
+Publicerades 18 mars
+2 o 3 kolumners kod
+Publicerades 21 mars
+2 0 3 kolumnskod
+Publicerades 09:01
+
+style2col.css
+
+style3col.css
+
+menyny.css
+
+2col.html
+
+3col.html
+Område 5 (Listor/tabeller/formulär)
+HTML listor
+Publicerades 18 mars
+CSS listor
+Publicerades 18 mars
+HTML tabeller
+Publicerades 18 mars
+CSS tabeller
+Publicerades 18 mars
+HTML formulär
+Publicerades 18 mars
+CSS Formulär
+Publicerades 18 mars
+Område 6 (Javascript)
+Javascript Formulär
+Publicerades 18 mars
+Javascript lösenord
+Publicerades 18 mars
+Javascript image-slider
+Publicerades 08:21
+Område 7 (Mobil webb)
+Gör hemsida responsiv
+Publicerades 18 mars
+Område 8 (Ljud/video/tillgänglighet)
+HTML Ljud
+Publicerades 18 mars
+HTML Youtube
+Publicerades 18 mars
+Område 9 (Säkerhet)
+HTML Lösenord
+Publicerades 18 mars
+Område 10 (Eget arbete)
+Information slutprojekt
+Publicerades 14 mars
+Gruppindelning slutprojekt
+Publicerades 14 mars
+Dokumentation
+Inget inlämningsdatum
+Upphovsrätt
+Publicerades 21 mars
+
+/*CSS dokument*/
+
+/* selektorn * formaterar alla element på sidan */
+* {
+  margin: 0;
+}
+
+/*formatering för html och body elementen*/
+html, body {
+  height: 100%;
+}
+
+/*formatering för sidans body element = bakgrundsfärg*/
+body {
+  background-color: #600000;
+}
+
+/*formatering för textstycken*/
+p {
+  font-family: Calibri, Verdana, Arial, sans-serif;
+  font-size: 14px;
+  padding: 0 0 10px 0;
+}
+
+/*formatering för rubrik h1*/
+h1 {
+  font-family: Cambria, Calibri, Verdana, Arial, sans-serif;
+  font-size: 24px;
+  color: #000000;
+  text-align: center;
+}
+
+/*formatering för textlänkar*/
+a {
+  font-family: Calibri, Verdana, Arial, sans-serif;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+/*formatering för textlänkar när användaren för pekaren över texten*/
+a:hover {
+  color: #FF0066;
+}
+
+/* formatering för första textstyckets första bokstav i section-elementet*/
+section > p:first-of-type::first-Letter {
+  font-family: Georgia, serif;
+  font-size: 25px;
+  letter-spacing: 2px;
+}
+
+/*formatering för behållare som innehåller alla sidans element*/
+.wrapper {
+  width:1010px;
+  min-height: 100%;
+  padding: 0px;
+  margin: auto;
+  background-color: #F6F9F9;
+  color: #000000;
+  border-left: 1px solid #4D94B8;
+  border-right: 1px solid #4D94B8;
+}
+
+/*formatering för klassen 'header' - sidhuvud*/
+.header {
+  width: 1000px;
+  padding: 20px 0 20px 0;
+  margin: auto;
+  background-color: #F6F9F);
+  color: #000000;
+}
+
+/*formatering för huvudmeny och textlänkarna*/
+.mainmenu {
+  width: 1000px;
+  padding: 5px;
+  margin: auto;
+  background-color: #E4ECEE;
+  color: #000000;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+.mainmenu ul {
+  list-style: none;
+}
+
+.mainmenu li {
+  display: inline;
+}
+
+.mainmenu a {
+  padding-left: 8px;
+  padding-right: 8px;
+  font-family: Cambria, Calibri, Verdana, Arial, sans-serif;
+  font-size: 18px;
+  color: #0099CC;
+}
+
+.mainmenu a:hover {
+  color: #FF0066;
+}
+
+/*formatering för 2 kolumn layout*/
+.wrapper_2col {
+  width: 100%;
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  padding: 0px;
+  background-color: #F6F9F9;
+  color: #000000;
+  margin: 0 auto -4em;
+}
+
+/*formatering för vänster kolumn*/
+.leftcol {
+  width: 300px;
+  background-color: #F6F9F9;
+  padding: 20px 10px 10px 10px;
+  float: left;
+  position: relative;
+}
+
+/*formatering för mellersta kolumn*/
+.middlecol {
+  width: 350px;
+  border: 1px #cccccc;
+  border-right-style: solid;
+  border-left-style: solid;
+  padding: 20px 10px 10px 10px;
+  margin: 0px;
+  background-color: #F6F9F9;
+  color: #000000;
+  float: left;
+  position: relative;
+}
+
+.middlecol img {
+  position: relative;
+  padding: 30px 0 30px 0;
+}
+
+.center {
+  text-align: center;
+}
+
+/*formatering för höger kolumn*/
+.rightcol {
+  float: right;
+  width: 300px;
+  background-color: #F6F9F9;
+  padding: 20px 5px 10px 5px;
+}
+
+/*formatering för sidfot*/
+.footer {
+  width: 1000px;
+  padding: 5px;
+  margin: 0px;
+  background-color: #E4ECEE;
+  color: #000000;
+  text-align: center;
+}
+
+/*formatering för sidfot och klassen push som trycker ner sidfoten på sidan*/
+.footer, .push {
+  height: 4em;
+  clear: both;
+}
+
+
+
+/*        ▄▄█▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█▄▄▄
+     ▄▄█▀▀                    ▀█▄▄
+   ▄█▀                           ▀█▄
+ ▄█▀                               ▀█
+ █                                  █▄
+█▀      ▄▄▄▄▄▄                       █
+█    ▄█████████▄       ▄             █
+█   █████▀▀█████       █          █  █
+█▄  ▀████▄▄████▀   ▄   █▄       ▄█▀ █▀
+ █▄   ▀▀▀▀▀▀▀▀█   ███   ██▀▀▀▀▀▀▀ ▄█▀
+  ▀█       ▄▄▀   █████   ▀▄▄      ▀█
+  █▀    █        ▀▀▀▀▀       ▄     ▀█
+  █  ▄▄▀█▀▄▄                ▄█▄▄    █
+  █      ▀█ █▀▀█▀▀▀█▀▀▀█▀▀█▀▄▀      █
+  █▄       ▀█  █   █   █  █▀       █▀
+   ▀█▄       ▀▀▀▀▀▀▀▀▀▀▀▀▀      ▄▄█▀
+     ▀▀█▄▄▄                 ▄▄█▀▀
+          ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀*/
